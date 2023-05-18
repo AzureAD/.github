@@ -2,6 +2,9 @@ name: Contributor License Agreement Policy
 description: CLA policy file
 
 resource: repository
+where:
+- |
+  !repository.name.equals("mip-sdk-for-cpp", StringComparison.InvariantCultureIgnoreCase)
 
 configuration: 
    cla:
